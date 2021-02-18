@@ -57,9 +57,9 @@ body
 #menuToggle span
 {
   display: block;
-  width: 23px;
+  width: 18px;
   height: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   position: relative;
   
   background: #232323;
@@ -69,9 +69,9 @@ body
   
   transform-origin: 4px 0px;
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), /* was 0.5s */
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), /* was 0.5s */
+              opacity 0.55s ease; /* was 0.55s */
 }
 
 #menuToggle span:first-child
@@ -90,7 +90,7 @@ body
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(45deg) translate(0, 0);
+  transform: rotate(45deg) translate(1px, 3px);
   background: #ffffff;
 }
 
@@ -103,7 +103,7 @@ body
 
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-45deg) translate(2px, 0);
+  transform: rotate(-45deg) translate(0, 0);
 }
 
 /* Positions the menu absolutely at the top left of the screen */
@@ -133,7 +133,7 @@ body
 #menu li
 {
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* Slides the menu in from the left! */
@@ -161,6 +161,7 @@ body
     height: auto;
 
     transform: none;
+    transition: none;
   }
 
   #menu li {
