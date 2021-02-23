@@ -13,4 +13,7 @@ In order to solve this, I am planning to listent to the DOM click event and use 
 Use Sass for CSS to improve readability and ease of development.
 
 ## Final Result
-[Codepen](https://codepen.io/nicolettafbr/pen/KKNydVK)
+Currently, the navigation bar behaves as follows:
+![responsive Navbar Video](https://github.com/nicolettafbr/responsive-navbar/blob/main/responsive-navbar.gif)
+
+You can try it yourself on this [Codepen](https://codepen.io/nicolettafbr/pen/KKNydVK)1
