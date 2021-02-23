@@ -1,5 +1,5 @@
 # Responsive Navbar
-### Made with love by Nicoletta Fabro
+### Made with :sparkling_heart: by Nicoletta Fabro
 
 ## Overview
 Responsive navigation bar component built with HTML and CSS. To achieve mobile navigation without using Javascript, the mobile menu uses a checkbox to toggle the menu.
